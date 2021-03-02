@@ -1,115 +1,126 @@
 body{
-  height: 100%;
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   font-family: courier;
+  font-size: 2vmin;
 }
+
 html{
   height: 100%;
   padding: 0px;
   margin: 0px;
 }
+
 #container{
+  display：flex;
   height:100%;
-  text-align: justify;
+  text-align: center;
+  align-content: space-between;
 }
 
 .background{
+  display: flex;
+  flex-direction: column;
   background: #CCFF66;
 }
 
 .banner {
-  height:345px;
+  display：flex;
+  padding: 5vmin;
+  flex-direction: column;
+  algin items: center;
+  height: 35vmin;
   background: #FFCCCC;
 }
 
 .title{
-  position: relative;
+  display：flex;
   text-align: center;
-  top: 100px;
-  font-size: 60px;
+  font-size: 10vmin;
   color:#333333;
 }
 
 .banner h4{
+  display：flex;
   position: relative;
   text-align: center;
+  align-content: space-between;
   color: #666666;
-  top: 105px;
+  height: 35vmin;
 }
 
 #intro{
-  height:300px;
-  padding: 100px;
-}
-
-#introBox{
-  position: relative;
-  background-image: url(images/1.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 350px;
-  width: 48%;
-}
-
-#content{
-  position: relative;
-  left: 325px;
-  bottom: 30px;
-  color: #333333;
+  display：flex;
+  padding: 10vmin;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #seTitle{
+  display：flex;
   text-align: center;
   color:#333333;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 40px;
+  margin-top: 4vmin;
+  margin-bottom: 4vmin;
+  font-size: 4vmin;
 }
 
 .branch {
-  height: 350px;
-  padding: 100px 100px 0px 100px;
+  display：flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10vmin;
+  background: #CCFF66;
 }
 .branch img{
+  display：flex;
   float: left;
-  padding-right: 40px;
+  width: 50vmin;
 }
 h3{
   color:#333333;
   font-weight: bold;
+  background: #CCFF66;
 }
 .branch p{
   color:#333333;
+  background: #CCFF66;
 }
 
 .email{
+  display：flex;
   background-color: #444444;
-  padding: 10px;
+  padding: 5vmin;
   box-sizing: border-box;
   text-align: center;
-  font-size: 20px;
+  font-size: 2vmin;
   color: white;
 }
 .emailLinks{
+  display：flex;
   display: inline-block;
   vertical-align: middle;
-
 }
 
 .mainContainer{
+  display：flex;
+  flex-direction: column;
   padding: 0px;
   margin: 0px;
 }
 
 .inContent{
+  display：flex;
   color: #333333;
   display: inline-block;
-  padding: 20px;
-  width: 500px;
+  padding: 2vmin;
+  width: 80vmin;
   vertical-align: middle;
 }
 
 .mainsite{
+  display：flex;
   text-align: center;
 }
